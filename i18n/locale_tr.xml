@@ -106,7 +106,7 @@
         <text name="guidanceSteering_headland_mode_3" text="Sağa dön"/>
 
         <!-- Cardinal strategy -->
-        <text name="guidanceSteering_setting_cardinalTitle" text="Desired cardinal (degrees)"/>
-        <text name="guidanceSteering_setting_cardinalConfirmText" text="Set cardinal"/>
+        <text name="guidanceSteering_setting_cardinalTitle" text="İstenilen tarla açısı (degrees)"/>
+        <text name="guidanceSteering_setting_cardinalConfirmText" text="Açıyı ayarla"/>
     </texts>
 </l10n>
