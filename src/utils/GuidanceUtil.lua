@@ -50,9 +50,7 @@ function GuidanceUtil.getMaxWorkAreaWidth(object)
         local activeSprayType = GuidanceUtil.getActiveSprayType(object)
         -- Exclude ridged markers from workArea calculation
         local skipWorkAreas = {
-            ["processRidgeMarkerArea"] = true,
-            ["processCombineSwathArea"] = true,
-            ["processCombineChopperArea"] = true,
+            ["processRidgeMarkerArea"] = true
         }
 
         local function isWorkAreaValid(workArea)
@@ -80,14 +78,12 @@ function GuidanceUtil.getMaxWorkAreaWidth(object)
         end
 
         local areaWidths = stream(workAreaSpec.workAreas):map(toLocalArea):toList()
-        if table.size(areaWidths) ~= 0 then
-            maxWidth = stream(areaWidths):reduce(0, function(r, e)
-                return math.max(r, unpack(e))
-            end)
-            minWidth = stream(areaWidths):reduce(math.huge, function(r, e)
-                return math.min(r, unpack(e))
-            end)
-        end
+        maxWidth = stream(areaWidths):reduce(0, function(r, e)
+            return math.max(r, unpack(e))
+        end)
+        minWidth = stream(areaWidths):reduce(math.huge, function(r, e)
+            return math.min(r, unpack(e))
+        end)
     end
 
     local width = maxWidth + math.abs(minWidth)
@@ -213,9 +209,9 @@ function GuidanceUtil.getHasSplinePoint(spline, x, y, z)
     local t = #spline
     local p = spline[t]
     return t > 0
-        and p.x == x
-        and p.y == y
-        and p.z == z
+            and p.x == x
+            and p.y == y
+            and p.z == z
 end
 
 function GuidanceUtil:computeSpline(points, smoothingSteps)
@@ -283,4 +279,19 @@ function GuidanceUtil:getClosestPointIndex(points, x, z, data)
     end
 
     return closestPointIndex
+end
+
+function GuidanceUtil.renderTextAtWorldPosition(x, y, z, text, textSize, rgb)
+    local sx, sy, sz = project(x, y, z)
+
+    if sx > -1 and sx < 2 and sy > -1 and sy < 2 and sz <= 1 then
+        setTextBold(true)
+        setTextAlignment(RenderText.ALIGN_CENTER)
+        setTextColor(0, 0, 0, 0.75)
+        renderText(sx, sy - 0.0015, textSize, text)
+        setTextColor(rgb[1], rgb[2], rgb[3], 1)
+        renderText(sx, sy, textSize, text)
+        setTextAlignment(RenderText.ALIGN_LEFT)
+        setTextBold(false)
+    end
 end

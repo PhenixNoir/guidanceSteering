@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <locale>ro</locale>
+    <texts>
+        <text name="guidanceSteering_setting_showLines" text="Show lines">
+            <!--Todo: add missing translation for guidanceSteering_setting_showLines--></text>
+        <text name="guidanceSteering_strategyMethod_aPlusHeading" text="A+Heading">
+            <!--Todo: add missing translation for guidanceSteering_strategyMethod_aPlusHeading--></text>
+        <text name="guidanceSteering_setting_strategy" text="Line strategy">
+            <!--Todo: add missing translation for guidanceSteering_setting_strategy--></text>
+        <text name="guidanceSteering_setting_enableGuidanceSteering" text="Enable guidance steering">
+            <!--Todo: add missing translation for guidanceSteering_setting_enableGuidanceSteering--></text>
+        <text name="guidanceSteering_setting_pointB" text="Set B">
+            <!--Todo: add missing translation for guidanceSteering_setting_pointB--></text>
+        <text name="configuration_buyableGPS_withoutGPS" text="No">
+            <!--Todo: add missing translation for configuration_buyableGPS_withoutGPS--></text>
+        <text name="input_GS_AXIS_WIDTH_2" text="GS: Decrease track width">
+            <!--Todo: add missing translation for input_GS_AXIS_WIDTH_2--></text>
+        <text name="guidanceSteering_strategy_abStraight" text="AB Straight">
+            <!--Todo: add missing translation for guidanceSteering_strategy_abStraight--></text>
+        <text name="guidanceSteering_ui_strategy" text="Guidance strategy">
+            <!--Todo: add missing translation for guidanceSteering_ui_strategy--></text>
+        <text name="guidanceSteering_setting_headlandDistance" text="Headland act distance">
+            <!--Todo: add missing translation for guidanceSteering_setting_headlandDistance--></text>
+        <text name="input_GS_TOGGLE" text="GS: Toggle guidance steering">
+            <!--Todo: add missing translation for input_GS_TOGGLE--></text>
+        <text name="guidanceSteering_setting_headlandMode" text="Headland mode">
+            <!--Todo: add missing translation for guidanceSteering_setting_headlandMode--></text>
+        <text name="guidanceSteering_warning_dropDistance" text="Drive at least 15m in order to set point B. Current traveled distance: %.2f">
+            <!--Todo: add missing translation for guidanceSteering_warning_dropDistance--></text>
+        <text name="guidanceSteering_setting_header_headland" text="Headland management">
+            <!--Todo: add missing translation for guidanceSteering_setting_header_headland--></text>
+        <text name="guidanceSteering_tooltip_widthInCrement" text="Set the width increment to increase/decrease the width">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_widthInCrement--></text>
+        <text name="guidanceSteering_tooltip_width" text="Set the width of your vehicle">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_width--></text>
+        <text name="guidanceSteering_setting_newTrack" text="Create track">
+            <!--Todo: add missing translation for guidanceSteering_setting_newTrack--></text>
+        <text name="guidanceSteering_setting_autoWidth" text="Auto width">
+            <!--Todo: add missing translation for guidanceSteering_setting_autoWidth--></text>
+        <text name="guidanceSteering_tooltip_trackAlreadyExists" text="Track name &#39;%s&#39; already exists!">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_trackAlreadyExists--></text>
+        <text name="guidanceSteering_setting_cardinalTitle" text="Desired cardinal (degrees)">
+            <!--Todo: add missing translation for guidanceSteering_setting_cardinalTitle--></text>
+        <text name="guidanceSteering_tooltip_headlandDistance" text="Distance in meters to act before approaching the headland.">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_headlandDistance--></text>
+        <text name="guidanceSteering_strategyMethod_autoB" text="Auto B">
+            <!--Todo: add missing translation for guidanceSteering_strategyMethod_autoB--></text>
+        <text name="input_GS_SHOW_UI" text="GS: Show guidance steering menu">
+            <!--Todo: add missing translation for input_GS_SHOW_UI--></text>
+        <text name="input_GS_TOGGLE_TERRAIN_ANGLE_SNAP" text="GS: Snap to terrain angle">
+            <!--Todo: add missing translation for input_GS_TOGGLE_TERRAIN_ANGLE_SNAP--></text>
+        <text name="guidanceSteering_tooltip_currentTrack" text="Select the current track to use">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_currentTrack--></text>
+        <text name="input_GS_AXIS_SHIFT_2" text="GS: Shift track left">
+            <!--Todo: add missing translation for input_GS_AXIS_SHIFT_2--></text>
+        <text name="guidanceSteering_tooltip_enableGuidanceSteering" text="Let the GPS guide the steering">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_enableGuidanceSteering--></text>
+        <text name="guidanceSteering_tooltip_offsetIncrement" text="Set the offset increment to increase/decrease the offset">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_offsetIncrement--></text>
+        <text name="guidanceSteering_setting_autoInvertOffset" text="Offset reversal">
+            <!--Todo: add missing translation for guidanceSteering_setting_autoInvertOffset--></text>
+        <text name="input_GS_SETPOINT" text="GS: Set guidance point">
+            <!--Todo: add missing translation for input_GS_SETPOINT--></text>
+        <text name="guidanceSteering_setting_terrainAngleSnap" text="Snap terrain angle">
+            <!--Todo: add missing translation for guidanceSteering_setting_terrainAngleSnap--></text>
+        <text name="guidanceSteering_setting_cardinalConfirmText" text="Set cardinal">
+            <!--Todo: add missing translation for guidanceSteering_setting_cardinalConfirmText--></text>
+        <text name="guidanceSteering_tooltip_trackIsNotCreated" text="Failed to save track data, please create or load a track first!">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_trackIsNotCreated--></text>
+        <text name="guidanceSteering_tooltip_terrainAngleSnap" text="Snap the direction to the terrain angle">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_terrainAngleSnap--></text>
+        <text name="guidanceSteering_setting_pointA" text="Set A">
+            <!--Todo: add missing translation for guidanceSteering_setting_pointA--></text>
+        <text name="input_GS_TURN_STEERING" text="GS: Set steering direction">
+            <!--Todo: add missing translation for input_GS_TURN_STEERING--></text>
+        <text name="guidanceSteering_tooltip_showLines" text="Support your visuals by showing the guidance lines">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_showLines--></text>
+        <text name="guidanceSteering_tooltip_cardinals" text="Set the cardinal points">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_cardinals--></text>
+        <text name="guidanceSteering_setting_changeWidth" text="Increment width">
+            <!--Todo: add missing translation for guidanceSteering_setting_changeWidth--></text>
+        <text name="input_GS_AXIS_REALIGN" text="GS: Realign track">
+            <!--Todo: add missing translation for input_GS_AXIS_REALIGN--></text>
+        <text name="configuration_buyableGPS_withGPS" text="Yes">
+            <!--Todo: add missing translation for configuration_buyableGPS_withGPS--></text>
+        <text name="guidanceSteering_setting_offsetIncrement" text="Offset increment">
+            <!--Todo: add missing translation for guidanceSteering_setting_offsetIncrement--></text>
+        <text name="input_GS_ROTATE_TRACK" text="GS: Rotate track">
+            <!--Todo: add missing translation for input_GS_ROTATE_TRACK--></text>
+        <text name="guidanceSteering_setting_cardinals" text="Cardinal point">
+            <!--Todo: add missing translation for guidanceSteering_setting_cardinals--></text>
+        <text name="guidanceSteering_headland_mode_2" text="Turn left">
+            <!--Todo: add missing translation for guidanceSteering_headland_mode_2--></text>
+        <text name="guidanceSteering_headland_mode_0" text="Off">
+            <!--Todo: add missing translation for guidanceSteering_headland_mode_0--></text>
+        <text name="guidanceSteering_setting_removeTrack" text="Remove track">
+            <!--Todo: add missing translation for guidanceSteering_setting_removeTrack--></text>
+        <text name="guidanceSteering_setting_resetOffsetWidth" text="Reset offset">
+            <!--Todo: add missing translation for guidanceSteering_setting_resetOffsetWidth--></text>
+        <text name="guidanceSteering_tooltip_headlandMode" text="With the headland mode you can set the acting strategy on the headland.">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_headlandMode--></text>
+        <text name="guidanceSteering_setting_currentTrack" text="Current track">
+            <!--Todo: add missing translation for guidanceSteering_setting_currentTrack--></text>
+        <text name="input_GS_ENABLE_STEERING" text="GS: Steering guidance">
+            <!--Todo: add missing translation for input_GS_ENABLE_STEERING--></text>
+        <text name="input_GS_SET_AUTO_WIDTH" text="GS: Auto width">
+            <!--Todo: add missing translation for input_GS_SET_AUTO_WIDTH--></text>
+        <text name="input_GS_AXIS_SHIFT_1" text="GS: Shift track right">
+            <!--Todo: add missing translation for input_GS_AXIS_SHIFT_1--></text>
+        <text name="guidanceSteering_setting_strategyMethod" text="Line method">
+            <!--Todo: add missing translation for guidanceSteering_setting_strategyMethod--></text>
+        <text name="guidanceSteering_tooltip_autoInvertOffset" text="Automatically invert the offset on a turn">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_autoInvertOffset--></text>
+        <text name="guidanceSteering_setting_saveTrack" text="Save track">
+            <!--Todo: add missing translation for guidanceSteering_setting_saveTrack--></text>
+        <text name="guidanceSteering_tooltip_offsetWidth" text="Set the offset of your vehicle">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_offsetWidth--></text>
+        <text name="guidanceSteering_setting_width" text="Width">
+            <!--Todo: add missing translation for guidanceSteering_setting_width--></text>
+        <text name="guidanceSteering_headland_mode_3" text="Turn right">
+            <!--Todo: add missing translation for guidanceSteering_headland_mode_3--></text>
+        <text name="guidanceSteering_strategyMethod_aPlusB" text="A+B">
+            <!--Todo: add missing translation for guidanceSteering_strategyMethod_aPlusB--></text>
+        <text name="guidanceSteering_warning_setWidth" text="Please set a working width first!">
+            <!--Todo: add missing translation for guidanceSteering_warning_setWidth--></text>
+        <text name="configuration_buyableGPS" text="Global Positioning System">
+            <!--Todo: add missing translation for configuration_buyableGPS--></text>
+        <text name="guidanceSteering_setting_invertOffset" text="Invert offset">
+            <!--Todo: add missing translation for guidanceSteering_setting_invertOffset--></text>
+        <text name="guidanceSteering_tooltip_strategy" text="Determine which strategy to use to create the guidance lines">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_strategy--></text>
+        <text name="guidanceSteering_headland_mode_1" text="Stop">
+            <!--Todo: add missing translation for guidanceSteering_headland_mode_1--></text>
+        <text name="input_GS_AXIS_WIDTH_1" text="GS: Increase track width">
+            <!--Todo: add missing translation for input_GS_AXIS_WIDTH_1--></text>
+        <text name="guidanceSteering_setting_widthIncrement" text="Width increment">
+            <!--Todo: add missing translation for guidanceSteering_setting_widthIncrement--></text>
+        <text name="guidanceSteering_setting_offsetWidth" text="Offset width">
+            <!--Todo: add missing translation for guidanceSteering_setting_offsetWidth--></text>
+        <text name="guidanceSteering_ui_settings" text="Guidance settings">
+            <!--Todo: add missing translation for guidanceSteering_ui_settings--></text>
+        <text name="guidanceSteering_strategy_abCurve" text="AB Curve">
+            <!--Todo: add missing translation for guidanceSteering_strategy_abCurve--></text>
+        <text name="input_GS_TOGGLE_LINE_DISPLAY" text="GS: Toggle line display">
+            <!--Todo: add missing translation for input_GS_TOGGLE_LINE_DISPLAY--></text>
+        <text name="guidanceSteering_tooltip_strategyMethod" text="Determine which strategy method to use">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_strategyMethod--></text>
+        <text name="guidanceSteering_setting_changeOffsetWidth" text="Increment offset">
+            <!--Todo: add missing translation for guidanceSteering_setting_changeOffsetWidth--></text>
+        <text name="guidanceSteering_warning_createTrackFirst" text="Please create or load a track first!">
+            <!--Todo: add missing translation for guidanceSteering_warning_createTrackFirst--></text>
+        <text name="guidanceSteering_setting_scopeTrackFarmId" text="Save track to farm">
+            <!--Todo: add missing translation for guidanceSteering_setting_scopeTrackFarmId--></text>
+        <text name="guidanceSteering_tooltip_scopeTrackFarmId" text="Save the track scoped to the farm of the vehicle, by default it&#39;s accessible for everyone">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_scopeTrackFarmId--></text>
+        <text name="guidanceSteering_tooltip_offsetLines" text="Offset the line for more ground clearance.">
+            <!--Todo: add missing translation for guidanceSteering_tooltip_offsetLines--></text>
+        <text name="guidanceSteering_setting_offsetLines" text="Line offset">
+            <!--Todo: add missing translation for guidanceSteering_setting_offsetLines--></text>
+    </texts>
+</l10n>

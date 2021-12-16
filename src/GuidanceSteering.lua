@@ -89,10 +89,10 @@ function GuidanceSteering:onMissionSaveToSavegame(xmlFile)
             xmlFile:setInt(key .. "#strategy", track.strategy)
             xmlFile:setInt(key .. "#method", track.method)
             xmlFile:setInt(key .. "#farmId", track.farmId)
-            xmlFile:setFloat(key .. ".guidanceData#width", track.guidanceData.width)
-            xmlFile:setFloat(key .. ".guidanceData#offsetWidth", track.guidanceData.offsetWidth)
-            xmlFile:setVector(key .. ".guidanceData#snapDirection", track.guidanceData.snapDirection)
-            xmlFile:setVector(key .. ".guidanceData#driveTarget", track.guidanceData.driveTarget)
+            xmlFile:setFloat(key .. ".guidanceData#width",track.guidanceData.width)
+            xmlFile:setFloat(key .. ".guidanceData#offsetWidth",track.guidanceData.offsetWidth)
+            xmlFile:setVector(key .. ".guidanceData#snapDirection",track.guidanceData.snapDirection)
+            xmlFile:setVector(key .. ".guidanceData#driveTarget",track.guidanceData.driveTarget)
         end
     end
 end
@@ -356,8 +356,7 @@ function GuidanceSteering.installSpecializations(vehicleTypeManager, specializat
 
     for typeName, typeEntry in pairs(vehicleTypeManager:getTypes()) do
         if SpecializationUtil.hasSpecialization(Drivable, typeEntry.specializations) and
-            not SpecializationUtil.hasSpecialization(SplineVehicle, typeEntry.specializations) and
-            not SpecializationUtil.hasSpecialization(GlobalPositioningSystem, typeEntry.specializations) then
+            not SpecializationUtil.hasSpecialization(SplineVehicle, typeEntry.specializations) then
             vehicleTypeManager:addSpecialization(typeName, modName .. ".globalPositioningSystem")
         end
     end

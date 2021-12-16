@@ -18,8 +18,8 @@ ABStrategy.METHODS = {
 }
 
 local RGB_WHITE = { 1, 1, 1 }
-local RGB_GREEN = { 0, 0.447871, 0.003697 }
-local RGB_BLUE = { 0, 0, 1 }
+local RGB_GREEN = { 0, 1, 0 }
+local RGB_BLUE = { 0.0003, 0.5647, 0.9822, 1 }
 local RGB_RED = { 1, 0, 0 }
 
 ABStrategy.ABLines = {
@@ -121,7 +121,8 @@ function ABStrategy:draw(data, guidanceSteeringIsActive, autoInvertOffset)
         local z2 = lz + ABStrategy.STEP_SIZE * (step + 1) * dirZ
         local y2 = getTerrainHeightAtWorldPos(g_currentMission.terrainRootNode, x2, 0, z2) + lineOffset
 
-        drawDebugLine(x1, y1, z1, rgb[1], rgb[2], rgb[3], x2, y2, z2, rgb[1], rgb[2], rgb[3])
+        --drawDebugLine(x1, y1, z1, rgb[1], rgb[2], rgb[3], x2, y2, z2, rgb[1], rgb[2], rgb[3])
+        GuidanceUtil.renderTextAtWorldPosition(x1, y1, z1, ".", 0.02, rgb)
 
         drawSteps(step + stepSkips, stepSize, lx, lz, dirX, dirZ, rgb)
     end

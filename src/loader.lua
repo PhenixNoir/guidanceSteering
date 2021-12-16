@@ -72,11 +72,6 @@ function init()
 end
 
 function loadMission(mission)
-    if isEnabled() or mission.guidanceSteering ~= nil then
-        log("Error: Guidance Steering is already loaded, please remove duplicate version!")
-        return
-    end
-
     guidanceSteering = GuidanceSteering:new(mission, directory, modName, g_i18n, g_gui, g_gui.inputManager, g_messageCenter)
 
     mission.guidanceSteering = guidanceSteering
@@ -230,7 +225,7 @@ local function canAddGuidanceSteeringConfiguration(storeItem, xmlFile)
 end
 
 function addGPSConfigurationUtil(xmlFile, superFunc, key, baseDir, customEnvironment, isMod, storeItem)
-    local configurations, defaultConfigurationIds = superFunc(xmlFile, key, baseDir, customEnvironment, isMod, storeItem)
+    local configurations = superFunc(xmlFile, key, baseDir, customEnvironment, isMod, storeItem)
 
     if StoreItemUtil.getIsVehicle(storeItem) and canAddGuidanceSteeringConfiguration(storeItem, xmlFile) then
         local gpsKey = GlobalPositioningSystem.CONFIG_NAME
@@ -247,7 +242,7 @@ function addGPSConfigurationUtil(xmlFile, superFunc, key, baseDir, customEnviron
         end
     end
 
-    return configurations, defaultConfigurationIds
+    return configurations
 end
 
 init()
